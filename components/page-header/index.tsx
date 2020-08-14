@@ -87,7 +87,7 @@ const renderTitle = (prefixCls: string, props: PageHeaderProps, direction: strin
           )}
           {subTitle && (
             <span
-              className={`${headingPrefixCls}-sub-title`}
+              className={`${headingPrefixCls}-sub-titleee`}
               title={typeof subTitle === 'string' ? subTitle : undefined}
             >
               {subTitle}
